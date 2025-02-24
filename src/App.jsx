@@ -90,7 +90,6 @@ function App() {
 
         <div className="containerCol">
           <div className="subColContainer">
-            {/* A bit About Me */}
             <div className="subTitle">A bit About Me</div>
           </div>
           <div className="majorColContainer">
@@ -109,12 +108,12 @@ function App() {
             </div>
             <div className="animationContainer">
               <Rive
+                className="animation"
                 src={hobby1}
                 // artboard="Artboard"
                 animations="Working"
                 stateMachines="State Machine 2"
                 autoPlay={true}
-                style={{ width: "500px", height: "500px" }}
               />
             </div>
           </div>
@@ -147,15 +146,27 @@ function App() {
           </div>
           <div className="majorColContainer">
             <div className="projectContainer">
-              <a>
+              <a
+                href="https://grahanam.github.io/Render/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="projectImg" src={render} />
                 <div>Render</div>
               </a>
-              <a>
+              <a
+                href="https://aura-backend-gsql.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="projectImg" src={aura} />
                 <div>Aura</div>
               </a>
-              <a>
+              <a
+                href="https://grahanam.github.io/Highway/src/index.html"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="projectImg" src={highway} />
                 <div>Highway</div>
               </a>
