@@ -2,29 +2,29 @@ import { useState } from "react";
 import Rive from "@rive-app/react-canvas";
 
 import "./App.css";
-import hobby from "./assets/animations/portfolio_hobby.riv";
-import hobby1 from "./assets/animations/hobby.riv";
+
+import hobby1 from "./assets/animations/hobby.riv?url";
 import { ReactTyped } from "react-typed";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
-import css from "./assets/icon/css.png";
-import html from "./assets/icon/html-5.png";
-import github from "./assets/icon/github.png";
-import node from "./assets/icon/node.png";
-import reactjs from "./assets/icon/reactjs.png";
-import javascript from "./assets/icon/javascript.png";
-import linux from "./assets/icon/Linux.png";
-import mongodb from "./assets/icon/MongoDB.png";
-import git from "./assets/icon/Git.png";
-import sql from "./assets/icon/MySQL.png";
-import python from "./assets/icon/Python.png";
-import threejs from "./assets/icon/Three.js.png";
-import java from "./assets/icon/Java.png";
-import render from "./assets/images/Render.png";
-import aura from "./assets/images/aura.png";
-import highway from "./assets/images/highway.png";
+import css from "./assets/icon/css.png?url";
+import html from "./assets/icon/html-5.png?url";
+import github from "./assets/icon/github.png?url";
+import node from "./assets/icon/node.png?url";
+import reactjs from "./assets/icon/reactjs.png?url";
+import javascript from "./assets/icon/javascript.png?url";
+import linux from "./assets/icon/Linux.png?url";
+import mongodb from "./assets/icon/MongoDB.png?url";
+import git from "./assets/icon/Git.png?url";
+import sql from "./assets/icon/MySQL.png?url";
+import python from "./assets/icon/Python.png?url";
+import threejs from "./assets/icon/Three.js.png?url";
+import java from "./assets/icon/Java.png?url";
+import render from "./assets/images/Render.png?url";
+import aura from "./assets/images/aura.png?url";
+import highway from "./assets/images/highway.png?url";
 
 function App() {
   const [dark, setDark] = useState(true);
