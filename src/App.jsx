@@ -26,6 +26,7 @@ import java from "./assets/icon/Java.png?url";
 import render from "./assets/images/Render.png?url";
 import aura from "./assets/images/aura.png?url";
 import highway from "./assets/images/highway.png?url";
+import dice from "./assets/images/dicegame.png?url";
 
 function App() {
   const [dark, setDark] = useState(true);
@@ -178,6 +179,14 @@ function App() {
               >
                 <img className="projectImg" src={highway} />
                 <div>Highway</div>
+              </a>
+              <a
+                href="https://provably-fair-dice-game-z4i1.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="projectImg" src={dice} />
+                <div>Provably Fair Dice Game</div>
               </a>
             </div>
           </div>
