@@ -4,6 +4,7 @@ import Rive from "@rive-app/react-canvas";
 import "./App.css";
 
 import hobby1 from "./assets/animations/hobby.riv?url";
+import car from "./assets/animations/car_animation.riv?url";
 import { ReactTyped } from "react-typed";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -84,6 +85,14 @@ function App() {
                 A Developer based from Pune, India with passion in crafting
                 seamless experience for the web.
               </p>
+              <div className="animationContainer">
+                <Rive
+                  className="caranimation"
+                  src={car}
+                  stateMachines="State Machine 1"
+                  autoPlay={true}
+                />
+              </div>
             </div>
           </div>
         </div>

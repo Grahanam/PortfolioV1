@@ -5,7 +5,8 @@
 }
 
 .mainPage {
-  width: 100%;
+  /* width: 100%; */
+  max-width: 1280px !important;
   background-color: #242424;
 }
 
@@ -125,6 +126,13 @@ a {
   height: 500px;
 }
 
+.caranimation {
+  width: 600px;
+  height: 300px;
+  /* width: 100%;
+  height: auto; */
+}
+
 @media (max-width: 768px) {
   .mainPage {
     width: 100vw;
@@ -133,7 +141,10 @@ a {
     width: 300px;
     height: 300px;
   }
-
+  .caranimation {
+    width: 400px;
+    height: 200px;
+  }
   .containerCol {
     flex-direction: column;
   }
@@ -159,5 +170,12 @@ a {
     text-align: left;
     font-weight: bold;
     /* width: 100%; */
+  }
+}
+
+@media (max-width: 411px) {
+  .caranimation {
+    width: 300px;
+    height: 200px;
   }
 }
