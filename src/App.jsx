@@ -59,7 +59,7 @@ function App() {
                 </i>
               </a>
             </div>
-            <div className="mode" onClick={() => setDark(!dark)}>
+            {/* <div className="mode" onClick={() => setDark(!dark)}>
               {dark ? (
                 <>
                   <i>
@@ -73,7 +73,7 @@ function App() {
                   </i>
                 </>
               )}
-            </div>
+            </div> */}
           </div>
 
           <div className="introduction">
@@ -103,7 +103,7 @@ function App() {
             <div className="subTitle">A bit About Me</div>
           </div>
           <div className="majorColContainer">
-            <div style={{ fontSize: "2.5rem", fontWeight: "bold" }}>
+            <div className="type">
               <ReactTyped
                 strings={[
                   "Artist",
